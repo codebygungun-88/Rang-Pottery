@@ -6,6 +6,7 @@
     <title>RANG | Jaipur Pottery & Art Studio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="index.html">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 </head>
 <body class="bg-[#F8F3EA] text-[#3E2723]">
     <!-- Navbar -->
@@ -13,9 +14,9 @@
         <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
 
             <!-- Logo -->
-            <a href="index.html" class="text-3xl font-bold tracking-widest">
-                RANG
-            </a>
+            <a href="index.html" class="flex items-center gap-3">
+  <img src="/images/Screenshot 2026-09-25 193904.png" alt="RANG Logo" class="w-[80px] h-[60px] rounded-full object-cover">
+  <h1 class="text-2xl font-bold tracking-widest">RANG</h1>
 
             <!-- Navigation -->
             <div class="hidden md:flex items-center gap-8 text-sm font-medium">
@@ -306,7 +307,7 @@
             <div class="grid md:grid-cols-3 gap-8">
 
                 <div>
-                    <div class="text-4xl mb-4">🪴</div>
+                    <div class="text-4xl mb-4"><i class="fa-solid fa-seedling" style="color: green;"></i></div>
                     <h3 class="text-xl font-semibold mb-2">
                         Materials
                     </h3>
@@ -316,7 +317,7 @@
                 </div>
 
                 <div>
-                    <div class="text-4xl mb-4">👩‍🎨</div>
+                    <div class="text-4xl mb-4"><i class="fa-solid fa-paintbrush" style="color: yellow;"></i></div>
                     <h3 class="text-xl font-semibold mb-2">
                         Expert Guidance
                     </h3>
@@ -326,7 +327,7 @@
                 </div>
 
                 <div>
-                    <div class="text-4xl mb-4">🏺</div>
+                    <div class="text-4xl mb-4"><i class="fa-solid fa-wine-glass-empty" style="color: palevioletred;"></i></div>
                     <h3 class="text-xl font-semibold mb-2">
                         Your Creation
                     </h3>
@@ -369,57 +370,68 @@
 
     </section>
     <!-- Footer -->
-    <footer class="bg-[#241512] text-white py-10">
+<footer class="bg-[#241512] text-white pt-16 pb-8">
+  <div class="max-w-7xl mx-auto px-6">
 
-        <div class="max-w-7xl mx-auto px-6">
+    <div class="grid md:grid-cols-4 gap-10">
 
-            <div class="flex flex-col md:flex-row justify-between gap-8">
+      <!-- Brand -->
+      <div>
+        <h2 class="text-3xl font-bold tracking-widest mb-4">RANG</h2>
+        <p class="text-[#CDBDB6] leading-7 text-sm">
+          Jaipur Pottery & Art Studio celebrating handmade ceramics,
+          creativity and traditional craftsmanship.
+        </p>
+      </div>
 
-                <div>
+      <!-- Quick Links -->
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+        <ul class="space-y-3 text-[#CDBDB6] text-sm">
+          <li><a href="index.html" class="hover:text-white">Home</a></li>
+          <li><a href="workshop.html" class="hover:text-white">Workshops</a></li>
+          <li><a href="gallery.html" class="hover:text-white">Gallery</a></li>
+          <li><a href="about.html" class="hover:text-white">About</a></li>
+          <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
 
-                    <h2 class="text-2xl font-bold tracking-widest mb-3">
-                        RANG
-                    </h2>
+      <!-- Contact -->
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Contact</h3>
+        <div class="space-y-3 text-[#CDBDB6] text-sm">
+          <p><i class="fa-solid fa-map-pin"></i> C-Scheme, Jaipur</p>
+          <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+          <p><i class="fa-regular fa-envelope"></i> rangstudio@gmail.com</p>
+          <p><i class="fa-regular fa-alarm-clock"></i> Mon – Sun · 10 AM – 7 PM</p>
+        </div>
+      </div>
 
-                    <p class="text-[#CDBDB6]">
-                        Jaipur Pottery & Art Studio
-                    </p>
+      <!-- Follow -->
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
 
-                </div>
-
-
-                <div>
-
-                    <p class="font-semibold mb-3">
-                        Studio Hours
-                    </p>
-
-                    <p class="text-[#CDBDB6]">
-                        Mon – Fri · 10 AM – 7 PM
-                    </p>
-
-                    <p class="text-[#CDBDB6]">
-                        Sat · 10 AM – 8 PM
-                    </p>
-
-                    <p class="text-[#CDBDB6]">
-                        Sun · 10 AM – 7 PM
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="border-t border-[#513B35] mt-8 pt-6 text-sm text-[#A9958D]">
-
-                © 2026 RANG Pottery Studio. All rights reserved.
-
-            </div>
-
+        <div class="flex gap-4 text-2xl mb-5">
+          <a href="#" class="hover:scale-110 duration-300"><i class="fa-solid fa-camera" style="color: skyblue;"></i></a>
+          <a href="#" class="hover:scale-110 duration-300"><i class="fa-solid fa-book" style="color: aquamarine;"></i></a>
+          <a href="#" class="hover:scale-110 duration-300"><i class="fa-solid fa-map-pin" style="color: red;"></i></a>
         </div>
 
-    </footer>
+        <p class="text-[#CDBDB6] text-sm">
+          Join our pottery community and discover new workshops every month.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <div class="border-t border-[#513B35] mt-12 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-[#A9958D]">
+      <p>© 2026 RANG Pottery Studio. All rights reserved.</p>
+      <p class="mt-3 md:mt-0">Made with <i class="fa-solid fa-heart"></i> in Jaipur</p>
+    </div>
+
+  </div>
+</footer>
 
 </body>
 </html>
